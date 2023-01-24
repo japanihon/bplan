@@ -11,8 +11,8 @@ import RemainingBudget from './components/Remaining';
 const App = () => {
 	return (
 		<AppProvider>
-			<div className='container'>
-				<h1 className='mt-3 d-flex justify-content-center'> Budget Planner 2.0 </h1>
+			<div className='container p-3 mb-2 bg-secondary text-black 100vw 100vh'>
+				<h1 className='mt-3 d-flex justify-content-center text-white'> Budget Planner 2.0 </h1>
 				<div className='row mt-3'>
 					<div className='col-sm'>
 						<Budget />
@@ -24,13 +24,13 @@ const App = () => {
 						<ExpenseTotal />
 					</div>
 				</div>
-				<h3 className='mt-3'> Expenses </h3>
+				<h3 className='mt-3 d-flex justify-content-center text-white'> Expenses </h3>
 				<div className='row '>
 					<div className='col-sm'>
 						<ExpenseList />
 					</div>
 				</div>
-				<h3 className='mt-3'> Add New Expense </h3>
+				<h3 className='mt-3 d-flex justify-content-center text-white'> Add New Expense </h3>
 				<div className='row mt-3'>
 					<div className='col-sm'>
 						<AddExpenseForm />
